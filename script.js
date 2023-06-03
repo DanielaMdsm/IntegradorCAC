@@ -25,4 +25,8 @@ formEntrada.addEventListener('submit',(event)=>{
     console.log(valor)
     valorPagar.innerText=`$ ${valor}`;
 
+}) 
+
+formEntrada.addEventListener('reset',()=>{
+    valorPagar.innerText="";
 })
